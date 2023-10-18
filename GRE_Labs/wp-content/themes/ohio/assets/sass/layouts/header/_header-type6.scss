@@ -1,0 +1,36 @@
+&.header-6 {
+
+    // General
+
+    @include md-screen {
+
+        .top-part-inner {
+
+            &.-left {
+
+                .hamburger-outer {
+                    padding-right: unset;
+                }
+            }
+        }
+    }
+
+    // Desktop
+
+    &:not(.-mobile) {
+        
+        .branding {
+            padding: 0 0.75rem;
+            white-space: nowrap;
+            min-width: 25vh;
+
+            @include flex-just(flex-end);
+        }
+    }
+
+    // Mobile
+
+    &.-mobile {
+        
+    }
+}

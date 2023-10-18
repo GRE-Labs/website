@@ -1,0 +1,58 @@
+&.header-7 {
+
+    .branding {
+        white-space: nowrap;
+    }
+
+    // Desktop
+
+    &:not(.-mobile) {
+
+        .header-wrap {
+
+            &-inner {
+                
+                @include align-items(center);
+            }
+        }
+
+        .branding {
+            top: 0;
+        }
+
+        .middle-part {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+
+            .hamburger-outer {
+                padding-left: 0.75rem;
+                padding-right: unset;
+                transform: rotate(-90deg);
+
+                @include flex-direction(row-reverse);
+
+                > .hamburger {
+                    transform: rotate(90deg);
+                }
+            }
+        }
+    }
+
+    // Mobile
+
+    &.-mobile {
+
+        .top-part {
+            order: 2;
+        }
+
+        .middle-part {
+            order: 1;
+        }
+
+        .bottom-part {
+            order: 3;
+        }
+    }
+}

@@ -1,0 +1,68 @@
+.portfolio-filter {
+	font-size: $font-size-small;
+	padding-bottom: $grid-spacer;
+
+	li {
+
+		@include inline-flex;
+
+		&:first-child {
+			margin-right: 0.5rem;
+		}
+	}
+
+	// Default layout
+
+	&:not(.-filter-button) {
+
+		li {
+			position: relative;
+
+			&:not(:first-child):not(:last-child) {
+
+				&::after {
+					content: "/";
+					margin: 0px 0.5rem 0px 0.25rem;
+
+					@include inline-flex;
+				}
+			}
+		}
+
+		a {
+			margin-right: 0.85rem;
+			font-weight: 500;
+			position: relative;
+
+			@include inline-flex;
+
+			.num {
+			    top: -0.35rem;
+			    right: -0.9rem;
+			    text-align: left;
+			    position: absolute;
+			    font-size: 0.65em;
+			    font-weight: bold;
+			}
+
+			&.active {
+				color: $color-red;
+			}
+		}
+	}
+
+	// Button layout
+
+	&.-filter-button {
+
+		a {
+			margin: 0.2rem 0.1rem;
+
+			.num {
+				margin-left: 0.25rem;
+			    font-size: 0.85em;
+			    color: $color-grey;
+			}
+		}
+	}
+}

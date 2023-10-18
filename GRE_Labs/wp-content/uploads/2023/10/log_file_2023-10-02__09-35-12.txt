@@ -1,0 +1,50 @@
+
+---Downloaded files---
+The import files for: Demo 31 - Digital Agency were successfully downloaded!
+Initial max execution time = 60
+Files info:
+Site URL = https://grelabs.com
+Data file = /home/grelabs.com/public_html/wp-content/uploads/2023/10/demo-content-import-file_2023-10-02__09-35-12.xml
+Widget file = /home/grelabs.com/public_html/wp-content/uploads/2023/10/demo-widgets-import-file_2023-10-02__09-35-12.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---Importing widgets---
+Blog : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+Pages : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+Footer column 1 : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+Footer column 2 : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+Footer column 3 : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+Footer column 4 : 
+
+Ohio: Subscribe Form - Subscribe to our newsletter to stay in touch with the latest updates - Imported
+
+
+
+---pt-ocdi/after_import---
+
